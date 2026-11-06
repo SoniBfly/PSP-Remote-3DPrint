@@ -1,0 +1,25 @@
+# FLSUN Remote — copy to ms0:/PSP/GAME/FLSUNRemote/flsun.ini
+# Placeholder values only; edit printer_ip for your LAN.
+
+# Printer Wi-Fi module (MKS) address
+printer_ip=192.168.1.50
+
+# Optional: force PSP LAN IP shown in Dash / Load URL.
+# Leave empty on phones — IP changes; auto-detect is more reliable.
+local_ip=
+
+# HTTP server on the PSP (Load UI / upload /logs)
+http_port=8081
+
+# MKS G-code TCP port on the printer
+mks_port=8080
+
+# Tune presets (saved after Apply on Tune, or Save on Dash)
+pla_hotend=200
+pla_bed=60
+speed_pct=100
+flow_pct=100
+
+# Logging: off (default) or net (TCP stream + http://<psp>:<http_port>/logs)
+log=off
+log_port=9999

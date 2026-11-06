@@ -1,0 +1,22 @@
+{
+  "name": "flsun-load",
+  "private": true,
+  "version": "4.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "three-slicer": "0.4.1",
+    "three-slicer-viewer": "^0.4.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-darwin-arm64": "^4.67.5"
+  }
+}

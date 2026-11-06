@@ -1,0 +1,40 @@
+# Build products and toolchain junk
+*.o
+*.elf
+*.pak
+PARAM.SFO
+EBOOT.PBP
+build/
+node_modules/
+Makefile.bak
+__pycache__/
+*.pyc
+.DS_Store
+
+# Real configs. The tracked template is flsun.ini.example.
+flsun.ini
+config.ini
+**/flsun.ini
+**/config.ini
+
+# Local secrets. Do not ignore application source or docs/*.md.
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Private notes and Obsidian vaults. Public docs stay in docs/*.md
+# and docs/assets/.
+docs/.obsidian/
+docs/ObsidianRU/
+docs/ObsidianEN/
+docs/Untitled.base
+docs/attachments/
+docs/_private/
+
+# Editor metadata and local packaging leftovers
+.vscode/
+.idea/
+delivery_manifest.json

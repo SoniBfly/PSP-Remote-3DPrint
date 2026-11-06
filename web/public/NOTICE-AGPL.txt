@@ -1,0 +1,2 @@
+This Load/Slice web UI embeds three-slicer 0.4.1 (AGPL-3.0-or-later),
+derived from OrcaSlicer. See web/ and https://github.com/kimgh06/Three_Slicer

@@ -1,0 +1,4 @@
+;FLSUN stage1 smoke
+G28
+M104 S0
+M140 S0
